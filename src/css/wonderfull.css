@@ -1,0 +1,172 @@
+.wonderfull {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .wonderfull-center {
+    width: 85%;
+    height: 100%;
+    background-color: #e6344e;
+    margin-top: 20px;
+    border-radius: 20px;
+
+    .wonderfull-center-item {
+      width: 100%;
+      height: 90%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: white;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        .swiper-wonderfull-inner {
+          width: 100%;
+          height: 100%;
+          .swiper-wonderfull-inner-top {
+            width: 100%;  
+            height: 80%;
+            a {
+              text-decoration: none;
+             
+              width: 100%;
+              height: 100%;
+              img {
+                width: 132px;
+                height: 132px;
+                display: block;
+                margin: 5px auto;
+              }
+              p {
+                font-family: var(--font-family);
+                font-size: 13px;
+                display: -webkit-box;
+                box-orient: vertical;
+                -webkit-box-orient: vertical;
+                line-clamp: 2;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                color: #62666d;
+                text-align: right;
+                margin: 0 auto;
+                line-height: 25px;
+                letter-spacing: 1px;
+
+                width: 90%;
+              }
+            }
+          }
+           .swiper-wonderfull-inner-middel {
+          height: 10%;
+          padding: 5px;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p{
+            width: 40px;
+            height:25px;
+            border-radius: 20px;
+            text-align: center;
+           font-size: 14px;
+           padding: 2px;
+            font-family: var(--font-number);
+            background-color:#d32f2f;
+            color: white;
+
+          }
+          span{
+             font-family: var(--font-number);
+             color: #3f4064;
+              font-size: 14px;
+              font-weight: bold;
+              display: flex;
+          justify-content: space-between;
+          align-items: center;
+              img{
+                width: 18px;
+                height: 18px;
+              }
+          }
+        }
+        .swiper-wonderfull-inner-bottom {
+          height: 10%;
+          text-align: left;
+          p{
+            direction: ltr;
+            margin-left: 20px;
+             font-family: var(--font-number);
+   color: lightgray;
+             font-size: 13px;
+             text-decoration: line-through;
+          }
+        }
+        }
+      }
+
+      .swiper-wonderfull-back {
+        background-color: inherit;
+        display: block;
+        margin: auto;
+        img {
+          width: 88px;
+          height: 88px;
+          margin: 5px auto;
+        }
+
+        a {
+          width: 60%;
+          text-decoration: none;
+          color: white;
+          font-family: var(--font-family);
+          font-size: 12px;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          text-align: center;
+
+          img {
+            width: 18px;
+            height: 18px;
+            color: whitesmoke;
+          }
+        }
+        .wonderfull-clock {
+          direction: ltr;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          column-gap: 5px;
+          font-family: var(--font-fsi);
+          span {
+            color: whitesmoke;
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .hour,
+          .minute,
+          .second {
+            background-color: whitesmoke;
+            width: 26px;
+            height: 26px;
+            text-align: center;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
